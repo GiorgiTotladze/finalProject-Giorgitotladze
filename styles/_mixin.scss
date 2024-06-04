@@ -1,6 +1,8 @@
-@mixin flex-box($justify:center, $dir:row ){
+@mixin flex-box($justify:left, $dir:row ){
     display: flex;
     justify-content: $justify;
     flex-direction: $dir;
+    position: sticky;
+    top: 0;  
 
 }

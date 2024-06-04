@@ -1,3 +1,14 @@
 header {
-  background-color: #7A8C94;
+  display: flex;
+  justify-content: left;
+  flex-direction: row;
+  position: sticky;
+  top: 0;
+}
+header ul {
+  font-size: 19px;
+  font-weight: 700;
+}
+header ul a {
+  text-decoration: none;
 }/*# sourceMappingURL=style.css.map */

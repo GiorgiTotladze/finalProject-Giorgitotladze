@@ -3,9 +3,13 @@
 @import  "variables.scss";
 
 header {
-    @include header;
-    background-color: #7A8C94;
+    @include flex-box;
+  
     ul { 
-        
+        font-size: 19px;
+        font-weight: 700;
+        a{
+            text-decoration: none;
+        }
     }
 }
