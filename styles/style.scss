@@ -1,0 +1,11 @@
+@import  "reset.scss";
+@import  "mixin.scss";
+@import  "variables.scss";
+
+header {
+    @include header;
+    background-color: #7A8C94;
+    ul { 
+        
+    }
+}
