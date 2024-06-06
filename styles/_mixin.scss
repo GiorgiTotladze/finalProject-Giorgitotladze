@@ -4,3 +4,12 @@
     flex-direction: $dir;
 
 }
+
+
+@mixin Cons($Bgimg, $cover:cover, $rep: no-repeat,) {
+    background-image: url($Bgimg);
+    background-repeat: $rep;
+    background-size: $cover;
+    width: 219px;
+    height: 120px;
+}
