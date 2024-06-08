@@ -147,9 +147,10 @@ button:hover {
   text-decoration: none;
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 550px) {
   .nav-tabs {
     flex-direction: row;
+    width: 200vh;
   }
   .nav-item:not(.burger-icon) {
     display: none;
@@ -173,13 +174,17 @@ button:hover {
   }
   .body {
     margin: 0;
+    overflow-Y: hidden;
+    width: 100vh;
+    height: 100vh;
   }
 }
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 1000px) {
   .uper,
   .downer {
     flex-direction: column;
     justify-content: space-around;
+    width: 200vh;
   }
   .uper p,
   .downer p {
