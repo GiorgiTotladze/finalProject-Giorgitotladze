@@ -27,22 +27,20 @@
         <li class="nav-item">
           <a class="nav-link" href="Services.html">Services</a>
         </li>
-        <li class="nav-item Log">
-          <a class="nav-link" href="../pages/Log-in.html">Log in</a>
-        </li>
-        <li class="nav-item ">
-          <a class="nav-link active" href="../pages/Sign-up.html">Sign up</a>
-        </li>
-      </ul>
       <li class="nav-item burger-icon">
         <i class="fa-solid fa-bars">
           <a class="nav-link" href="#"></a>
         </i>
       </li>
-      
+        <a class="nav-link dropdown-toggle Log" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false"> <i class="fa-regular fa-user acc"></i>Account</a>
+        <ul class="dropdown-menu">
+          <li><a class="dropdown-item" href="../pages/Sign-up.html">Sign up</a></li>
+          <li><a class="dropdown-item" href="../pages/Log-in.html">Log in</a></li>
+        </ul>
+      </ul>
     <div class="Log-in">
       <form>
-        <i class="fa-regular fa-user"></i>
+        <i class="fa-regular fa-user sign-in"></i>
         <label for="username">
             <input type="text" placeholder="Username">
         </label>

@@ -154,6 +154,9 @@ button:hover {
   .nav-item:not(.burger-icon) {
     display: none;
   }
+  .dropdown-menu {
+    display: none;
+  }
   .burger-icon {
     display: block;
   }
@@ -259,9 +262,9 @@ form {
   font-size: large;
 }
 
-.fa-user {
+.sign-in {
   margin-bottom: 60px;
-  font-size: 100px;
+  font-size: 150px;
 }
 
 .i {
@@ -270,4 +273,9 @@ form {
 
 .Log {
   margin-left: auto;
+}
+
+.acc {
+  margin-right: 5px;
+  font-size: 20px;
 }/*# sourceMappingURL=style.css.map */

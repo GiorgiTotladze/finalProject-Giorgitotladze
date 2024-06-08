@@ -6,7 +6,9 @@
   .nav-item:not(.burger-icon) {
     display: none;
   }
-
+  .dropdown-menu {
+    display: none;
+  }
   .burger-icon {
     display: block;
   }
