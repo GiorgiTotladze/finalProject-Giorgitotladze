@@ -171,6 +171,9 @@ button:hover {
   .h .search {
     margin: 0;
   }
+  .body {
+    margin: 0;
+  }
 }
 @media screen and (max-width: 800px) {
   .uper,
