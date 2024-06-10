@@ -1,0 +1,78 @@
+@media screen and (max-width: 600px) {
+  .nav-tabs {
+    flex-direction: row;
+    width: 100dvh;
+  }
+  .nav-item:not(.burger-icon) {
+    display: none;
+  }
+  .dropdown-menu {
+    display: none;
+  }
+  .burger-icon {
+    display: block;
+  }
+  .h {
+    margin-left: 0;
+    margin-right: 0;
+    left: -350px;
+  }
+  .h #search {
+    margin: 0;
+  }
+  .h .search {
+    margin: 0;
+  }
+  .h button {
+    margin: 0;
+  }
+  .h form {
+    margin: 0;
+    display: inline;
+  }
+  .body {
+    margin: 0;
+    overflow-y: hidden;
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 1000px) {
+  .uper,
+  .downer {
+    flex-direction: column;
+    justify-content: space-around;
+    width: 100dvh;
+  }
+  .uper p,
+  .downer p {
+    transform: translateY(30px);
+    transform: translateX(60px);
+  }
+  .Con1,
+  .Con2,
+  .Con3,
+  .Con4,
+  .Con5,
+  .Con6,
+  .Con7,
+  .Con8 {
+    margin-bottom: 10px;
+    margin-left: 0;
+  }
+}
+@media (max-width: 500px) {
+  body {
+    width: 100vh;
+  }
+  .Log-in form {
+    width: 100%;
+  }
+  .Log-in form label input {
+    width: 300px;
+  }
+  .Log-in form label button {
+    width: 300px;
+  }
+}/*# sourceMappingURL=media.css.map */

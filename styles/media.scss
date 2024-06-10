@@ -1,8 +1,7 @@
-@media screen and (max-width: 550px) {
+@media screen and (max-width: 600px) {
   .nav-tabs {
     flex-direction: row;
-    width: 200vh;
-    
+    width: 100dvh;
   }
 
   .nav-item:not(.burger-icon) {
@@ -24,15 +23,22 @@
     .search {
       margin: 0;
     }
+    button {
+      margin: 0;
+    }
+    form {
+      margin: 0;
+      display: inline;
+    }
   }
   .body {
     margin: 0;
-    overflow-Y: hidden;
-    width: 100vh;
-    height: 100vh;
-    
+    overflow-y: hidden;
+    width: 100%;
+    height: 100%;
+    // white-space: none;
+    box-sizing: border-box;
   }
-
 }
 
 @media screen and (max-width: 1000px) {
@@ -40,7 +46,7 @@
   .downer {
     flex-direction: column;
     justify-content: space-around;
-    width: 200vh;
+    width: 100dvh;
 
     p {
       transform: translateY(30px);
@@ -61,8 +67,12 @@
 }
 
 @media (max-width: 500px) {
+  body {
+    width: 100vh;
+  }
   .Log-in {
     form {
+      width: 100%;
       label {
         input {
           width: 300px;

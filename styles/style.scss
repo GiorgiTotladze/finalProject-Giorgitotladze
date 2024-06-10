@@ -116,12 +116,38 @@ button:hover {
     @include p;
   }
 }
+.Con5 {
+  @include Cons("../images/dell.1920x1080303020034-removebg-preview.png");
+  P {
+    @include p;
+  }
+}
+.Con6 {
+  @include Cons("../images/msi_katana_15_laptop_black_1_1-removebg-preview.png");
+  p {
+    @include p;
+  }
+}
+.Con7 {
+  @include Cons("../images/hp_envy_x360_natural_silver_1-removebg-preview.png");
+  p {
+    @include p
+  }
+}
+.Con8 {
+  @include Cons("../images/90NR0ID6-M000W0-1-removebg-preview.png");
+  p {
+    @include p
+  }
+}
+
+
 .burger-icon {
   display: none;
   text-decoration: none;
 }
 
-@import "media.scss";
+
 
 .account {
   border-radius: 3px;
