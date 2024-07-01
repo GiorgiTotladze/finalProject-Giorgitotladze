@@ -1,25 +1,62 @@
-@mixin flex-box($justify:space-between, $dir:row ){
-    display: flex;
-    justify-content: $justify;
-    flex-direction: $dir;
-
+@mixin flex-box($justify: space-between, $dir: row) {
+  display: flex;
+  justify-content: $justify;
+  flex-direction: $dir;
 }
 
-
-@mixin Cons($Bgimg, $cover:cover, $rep: no-repeat,) {
-    background-image: url($Bgimg);
-    background-repeat: $rep;
-    background-size: contain;
-    width: 219px;
-    height: 190px;
-    margin: auto;
+@mixin Cons($Bgimg, $cover: cover, $rep: no-repeat) {
+  background-image: url($Bgimg);
+  background-repeat: $rep;
+  background-size: contain;
+  width: 219px;
+  height: 190px;
+  margin: auto;
 }
-
 
 @mixin p($margin: auto) {
-    margin: auto;
-    text-align: center;
-    transform: translateY(190px);
+  margin: auto;
+  text-align: center;
+  transform: translateY(190px);
 }
 
+@mixin abt_p {
+  margin-left: 50px;
+  display: inline-block;
+  margin-left: 50px;
+  font-size: 20px;
+}
+
+@mixin abt_h6 {
+  display: inline-block;
+  font-size: 20px;
+  font-weight: 600;
+  margin-left: 5px;
+}
+
+@mixin Cont() {
+  margin: auto;
+  width: 100vh;
+  transform: translateY(20vh);
+  @include flex-box;
+  .cont {
+    width: 130px;
+    text-align: center;
+    div {
+      border: 5px solid black;
+      width: 130px;
+      height: 130px;
+      margin-bottom: 10px;
+      align-items: center;
+      display: flex;
+      justify-content: center;
+      border-radius: 100%;
+      i {
+        font-size: 70px;
+      }
+    }
+    p {
+      font-size: 15px;
+    }
+  }
+}
 

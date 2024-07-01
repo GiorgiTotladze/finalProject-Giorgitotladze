@@ -11,7 +11,7 @@
   border-top: 2.5px solid rgb(21, 146, 255);
   border-top-left-radius: 30px;
   border-bottom-left-radius: 30px;
-  width: 300px;
+  width: 350px;
   height: 40px;
   padding-left: 10px;
   background-color: inherit;
@@ -20,6 +20,7 @@
   flex: 1;
   left: 50%;
   transform: translate(-50%, -50%);
+  margin-left: -50px;
 }
 .h {
   width: 1000px;
@@ -123,7 +124,9 @@ button:hover {
   }
 }
 .Con6 {
-  @include Cons("../images/msi_katana_15_laptop_black_1_1-removebg-preview.png");
+  @include Cons(
+    "../images/msi_katana_15_laptop_black_1_1-removebg-preview.png"
+  );
   p {
     @include p;
   }
@@ -131,23 +134,20 @@ button:hover {
 .Con7 {
   @include Cons("../images/hp_envy_x360_natural_silver_1-removebg-preview.png");
   p {
-    @include p
+    @include p;
   }
 }
 .Con8 {
   @include Cons("../images/90NR0ID6-M000W0-1-removebg-preview.png");
   p {
-    @include p
+    @include p;
   }
 }
-
 
 .burger-icon {
   display: none;
   text-decoration: none;
 }
-
-
 
 .account {
   border-radius: 3px;
@@ -181,6 +181,7 @@ form {
   justify-content: center;
   flex-direction: column;
   flex-wrap: wrap-reverse;
+  margin-top: 50px;
   input:hover {
     outline: none;
     background-color: inherit;
@@ -225,4 +226,64 @@ form {
 .acc {
   margin-right: 5px;
   font-size: 20px;
+}
+
+.Abt {
+  background-color: #c1c1c1;
+  width: 100%;
+  height: 600px;
+  margin-top: 50px;
+}
+
+.left_side {
+  p {
+    margin-top: 60px;
+    @include abt_p;
+  }
+  h6 {
+    margin-top: 60px;
+    @include abt_h6;
+  }
+}
+
+.info {
+  @include Cont;
+}
+
+.main {
+  background-color: #c1c1c1;
+  height: 600px;
+  margin-top: 50px;
+}
+
+.ABT {
+  @include flex-box();
+  flex-direction: column;
+  text-align: center;
+  width: 100%;
+  height: 600px;
+  background-color: #c1c1c1;
+  margin-top: 50px;
+  h1 {
+    margin: auto;
+    transform: translate(-5%);
+    margin-bottom: inherit;
+  }
+  p {
+    margin: auto;
+    transform: translateY(30%);
+    margin-top: inherit;
+    width: 100%;
+    font-size: larger;
+  }
+}
+
+.News {
+  @include flex-box();
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  background-color: #c1c1c1;
+  height: 600px;
+  margin-top: 50px;
 }
